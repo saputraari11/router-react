@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #1D976C;
+    padding: 15px 40px;
+}
+
+label {
+    padding: 0 25px;
+    font-size: 25px;
+    font-family: fantasy;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px rgba(85, 78, 78, 0.397);
+}
+
+.utama {
+    float: right;
+    list-style: none;
+}
+
+.utama li {
+    display: inline;
+    padding-top: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.utama li:hover {
+    border: 2px solid #93F9B9;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px rgba(82, 75, 75, 0.911);
+}
+
+.btn-navbar {
+    display: none;
+}
+
+@media (max-width:670px) {
+    .btn-navbar {
+        float: right;
+        display: inline;
+        border: none;
+        background: none;
+        color: white;
+        padding: 5px 20px;
+        font-size: 30px;
+        border-radius: 20px;
+        margin-top: -10px;
+    }
+    .utama {
+        position: fixed;
+        top: 59px;
+        width: 92vh;
+        height: 100vh;
+        text-align: center;
+        left: -100vh;
+        padding: 0;
+        background-color: #76f1c6d2;
+        z-index: 1;
+    }
+    .utama li {
+        display: block;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .utama li:hover {
+        border-radius: 0;
+    }
+}

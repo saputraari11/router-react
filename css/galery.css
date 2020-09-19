@@ -1,0 +1,81 @@
+.Main2 {
+    width: 1365px;
+    overflow: hidden;
+}
+
+.row-1-main {
+    width: 1365px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.row-1-main .col {
+    float: left;
+    width: 449.5px;
+}
+
+.row-1-main .col button {
+    border: none;
+    padding: 10px 20px;
+    margin-left: 155px;
+    background: none;
+    border: 2px solid rgb(108, 236, 108);
+    border-radius: 20px;
+    transition-duration: 0.1s;
+}
+
+.row-1-main .col button.f-1 {
+    background-color: rgb(108, 236, 108);
+    color: white;
+}
+
+.row-2-main {
+    width: 4250px;
+    height: 400px;
+}
+
+.row-2-main .col {
+    float: left;
+    margin-top: 50px;
+    width: 1357px;
+    height: 300px;
+    /* margin-left: -1360px; */
+    transition: all 1s ease-in;
+}
+
+.row-2-main .col img {
+    width: 350px;
+    height: 250px;
+    margin-left: 80px;
+}
+
+.row-2-main .col-1 {
+    float: left;
+    margin-top: 50px;
+    width: 1357px;
+    height: 300px;
+    transition: all 1s ease-in;
+    margin-left: -15px;
+}
+
+.row-2-main .col-1 img {
+    width: 350px;
+    height: 250px;
+    margin-left: 80px;
+}
+
+.row-2-main .col-2 {
+    float: left;
+    margin-top: 50px;
+    width: 1357px;
+    height: 300px;
+    /* margin-left: -1360px; */
+    transition: all 1s ease-in;
+}
+
+.row-2-main .col-2 img {
+    width: 350px;
+    height: 250px;
+    margin-left: 80px;
+}

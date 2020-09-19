@@ -1,0 +1,61 @@
+.Main1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.row {
+    margin-left: 2px;
+    width: 1682px;
+    height: 1000px;
+}
+
+.col-1 {
+    float: left;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.col-2 {
+    margin-top: 100px;
+    float: right;
+    width: 1000px;
+    margin-right: 20px;
+}
+
+.trash {
+    box-shadow: 4px -4px 4px rgba(128, 128, 128, 0.692);
+}
+
+.btn-content-beranda {
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 3px solid rgb(120, 167, 120);
+    background: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgb(92, 90, 90);
+    color: rgb(120, 167, 120);
+}
+
+.btn-content-beranda:hover {
+    background-color: rgb(120, 167, 120);
+    color: white;
+    border: 3px solid rgb(223, 250, 231);
+}
+
+.judul {
+    font-size: 90px;
+    color: #317017;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.isi {
+    overflow: hidden;
+    height: 160px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(94, 109, 99, 0.952);
+}
